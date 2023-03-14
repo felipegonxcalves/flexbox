@@ -51,6 +51,19 @@
 
 /* ---------------------------------------------------------------------------------------------------------------  */
 
+/* FLEX NO MODO Column  */
+
+.flex_colum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* flex-end, flex-start,  space-between, space-evenly, */
+    align-items: center; /* self-end, self-start, stretch */
+    border: 3px solid black;
+    background-color: #4e57ff4f;
+    margin: 50px 20px;
+    /*gap: 20px; !* Adiciona um espaçamento igual em cada um dos elementos dentro do container flex, responsável pelo espaçamento (calhas) entre colunas e linhas *!*/
+}
+
 /*.item3 {*/
 /*    padding: 40px 25px;*/
 /*    background-color: #4e56ff;*/
